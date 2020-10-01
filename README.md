@@ -13,7 +13,7 @@ Full Stack NATURE blog website
 4. Front end development languages: HTML, CSS, JS, Bootstrap, jQuery 
 5. Back end development languages: SQL and PHP
 
-The website was protected against following vulnerabilities: Injections, XSS attacks, Clickjacking, Broken Access Control, Sensative Data Exposure, Insecure Deserialization, Security Misconfiguration, Broken Authentication and CSRF; by including multiple security protocols like hashing, encryption, prepared statements for SQl injection, sanitizing and filtering data, tight access control and authentication rules and multiple other security protocols.    
+The website was protected against following vulnerabilities: Injections, XSS attacks, Clickjacking, Broken Access Control, Sensative Data Exposure, Insecure Deserialization, Security Misconfiguration, Broken Authentication and CSRF; by including multiple security protocols like hashing, encryption, prepared statements for SQl injection, sanitizing and filtering data, tight access control and authentication rules and multiple other security protocols. Also includes some cryptography implemntation. 
 After securing, the website was attacked again to check if all security implementations work. 
 Website was scanned again using DAST and SAST tools and it was unable to pick vulnerabilities because of security implementation : ZAP and Arachni analysis tools. 
 
